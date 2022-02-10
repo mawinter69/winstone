@@ -8,7 +8,6 @@
     <relativePath />
   </parent>
 
-  <groupId>org.jenkins-ci</groupId>
   <artifactId>winstone</artifactId>
   <version>${revision}${changelist}</version>
   <packaging>jar</packaging>
@@ -18,7 +17,7 @@
   <url>https://github.com/jenkinsci/${project.artifactId}</url>
 
   <properties>
-    <revision>5.23</revision>
+    <revision>5.24</revision>
     <changelist>-SNAPSHOT</changelist>
     <java.level>8</java.level>
     <jetty.version>10.0.7</jetty.version>
